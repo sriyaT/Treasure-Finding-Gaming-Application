@@ -15,6 +15,8 @@ export default function handleMovement(player){
                 return[ oldPos[0] , oldPos[1] -  SPRITE_SIZE]
             case 'SOUTH':
                 return[ oldPos[0] , oldPos[1] + SPRITE_SIZE]    
+            default:
+                return console.log('not moving');
                 
         }
         
@@ -84,6 +86,8 @@ export default function handleMovement(player){
                 return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 2}px`;
             case 'NORTH':
                 return `${SPRITE_SIZE * walkIndex}px ${SPRITE_SIZE * 3}px`;
+            default:
+                return console.log('i am confused!')
             
         }
     }
