@@ -1,0 +1,23 @@
+.tile{
+    display: inline-flex;
+    background-color: rgba(66,188,66,1);
+}
+.rock{
+    background-image: url('/tiles/rock.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    
+}
+.tree{
+    background-image: url('/tiles/tree.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.chest{
+    background-image: url('/tiles/chest.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
